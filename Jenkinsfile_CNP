@@ -4,7 +4,7 @@
 
 def type = "nodejs"
 def product = "ia"
-def component = "expressjs-template-test-test"
+def component = "expressjs-template-test"
 
 withPipeline(type, product, component) {
   disableLegacyDeployment()
